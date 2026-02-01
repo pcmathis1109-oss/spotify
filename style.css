@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    display: flex;
+    background-color: #121212;
+    color: white;
+}
+
+#sidebar {
+    width: 200px;
+    background-color: #000;
+    padding: 20px;
+}
+
+#sidebar h2 {
+    color: #1DB954;
+}
+
+#sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+#sidebar li {
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+#main {
+    flex: 1;
+    padding: 20px;
+}
+
+#player {
+    position: fixed;
+    bottom: 0;
+    left: 200px;
+    right: 0;
+    background-color: #181818;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+}
